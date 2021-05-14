@@ -77,7 +77,7 @@ justify-content: space-between;
         <CharContainer>
             {
               characters.map((char, idx) => {
-                // console.log('Testing:', char)
+                console.log('Testing:', char)
                 return <Character name={char.name} key={idx} id={idx} birth={char.birth_year} />
               })
             }

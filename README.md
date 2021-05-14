@@ -67,12 +67,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use the following API:
+- [X ] Use the following API:
   - [Star Wars API](https://swapi.dev/)
-- [ ] Use the documentation and Google to learn how to fetch characters from your API.
-- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
-- [ ] Set the list of characters into state.
-- [ ] Render your characters to the screen:
+- [X ] Use the documentation and Google to learn how to fetch characters from your API.
+- [X ] Obtain a list of characters. One or several requests might be needed, depending on the API.
+- [X ] Set the list of characters into state.
+- [ X] Render your characters to the screen:
   - Build a React component named 'Character' to render an individual character.
   - Map over the list in state, and for each character render a Character to the page.
   - You must display at least one element for each character in the data set.
@@ -80,11 +80,11 @@ Your finished project must include all of the following requirements:
 
 ### Required best practices
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [ X] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [ X] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [ X] Consistent quotation usage.
+- [ X] Spell-check.
+- [ X] Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
