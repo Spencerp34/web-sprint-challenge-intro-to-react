@@ -2,6 +2,7 @@
 import React from 'react';
 import styled from 'styled-components'
 
+
 const StyledDiv = styled.div`
   color: ${props => props.theme.firstColor};
   display: flex;
@@ -24,10 +25,11 @@ const Character = props => {
     // console.log(props)
 
   return (
-    <StyledDiv id={props.id} >
+     <StyledDiv id={props.id} >
         <StyledH1>{props.name}</StyledH1>
         <StyledYear>{props.birth}</StyledYear>
     </StyledDiv>
+        
   );
 }
 export default Character;

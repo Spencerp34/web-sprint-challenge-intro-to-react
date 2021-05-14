@@ -22,8 +22,31 @@ const App = () => {
     background-color: rgba(218, 223, 225, 0.15);
     border-radius: 25px;
     width: 40%;
-    margin-left: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
   `
+
+const ImageDiv = styled.div`
+display: flex;
+justify-content: space-between;
+
+
+#sw1{
+    width: 200px;
+    height: 80vh;
+    object-fit: cover;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);    
+    border-radius: 25px;
+};
+#sw2{
+    width: 200px;
+    height: 80vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border-radius: 25px;
+};
+`
 
   const [characters, setCharacters] = useState([])
 
@@ -39,14 +62,21 @@ const App = () => {
   return (
     <div className="App">
       <Title>React Wars</Title>
-          <CharContainer>
+      <ImageDiv>
+        <img src = 'https://cutewallpaper.org/21/star-wars-vertical-wallpaper/GameWallpapers.com-Search.jpg' alt='sw1' id='sw1'/>
+        <CharContainer>
             {
               characters.map((char, idx) => {
                 // console.log('Testing:', char)
                 return <Character name={char.name} key={idx} id={idx} birth={char.birth_year} />
               })
             }
-          </CharContainer>
+        </CharContainer>
+        <img src = 'https://cdn.statically.io/img/i.pinimg.com/originals/86/f3/ed/86f3ed0ece32d8c3ab44c3495949f8df.jpg' alt='sw2' id='sw2'/>
+        
+
+    </ImageDiv>  
+          
     </div>
   )
 }
