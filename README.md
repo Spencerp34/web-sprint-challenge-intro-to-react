@@ -32,11 +32,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a library that helps update the DOM with components that update as needed when different data passes through.
+
 1. Describe component state.
+
+Setting a variable that's value is stored in memory using the state hook. This allows us to interact with the value when needed.
 
 1. Describe props.
 
+Short for properties I think.  It is a object that passes from parent components to child components with declared values.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+To sync effects to a certain state/props you must specify in the useEffect at the end like this useEffect(() => {}, [state])
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -44,16 +52,16 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Run `npm install` to retrieve all needed dependencies.
-- [ ] In a separate terminal, run `npm run test:watch` to run tests.
-- [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: `git push origin <firstName-lastName>`
+- [X ] Create a forked copy of this project
+- [ NA] Add your team lead as collaborator on Github
+- [ X] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [ X] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X ] Run `npm install` to retrieve all needed dependencies.
+- [ X] In a separate terminal, run `npm run test:watch` to run tests.
+- [ X] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
+- [ X] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [X ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [ X] Push commits: `git push origin <firstName-lastName>`
 
 ### Task 2: Project Requirements
 
