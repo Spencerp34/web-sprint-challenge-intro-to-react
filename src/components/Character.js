@@ -9,8 +9,6 @@ const StyledDiv = styled.div`
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 3px solid rgba(252, 163, 17, 0.5);
-  /* #5 border-bottom: none; */
-  
   
 `
 const StyledH1 = styled.h1`

@@ -24,6 +24,10 @@ const App = () => {
     width: 40%;
     margin-left: 10%;
     margin-right: 10%;
+    @media ${props => props.theme.mediumBreakPoint} {
+      width: 75%;
+      margin-left: 15%;
+    };
   `
 
 const ImageDiv = styled.div`
@@ -38,6 +42,9 @@ justify-content: space-between;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);    
     border-radius: 25px;
+    @media ${props => props.theme.mediumBreakPoint} {
+      display: none;
+    };
 };
 #sw2{
     width: 200px;
@@ -45,6 +52,9 @@ justify-content: space-between;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     border-radius: 25px;
+    @media ${props => props.theme.mediumBreakPoint} {
+      display: none;
+    };
 };
 `
 
