@@ -6,3 +6,8 @@ body {
   background-size: cover;
   color: white;
 }
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
