@@ -32,11 +32,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is an alternate way to manipulate the DOM in a fashion that only updates the peices of state that is changing. This makes an incredibly fast UI with little to no need for all information to be reprocessed.
+
 1. Describe component state.
+
+A variable that we declare using the useState import from react. This lets React know what will be updating with certain actions such as onClick and true/false.
 
 1. Describe props.
 
+The information that is passed from one page to another in the state and we assign the key value pairs when we apply the component to the app.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Changes to the elements based on user interaction. Usually events on the app.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
